@@ -42,3 +42,9 @@ TEXT
 puts a, b
 
 puts nil || false || 2 || 3
+puts 1 && 2
+puts 2 || false
+
+puts true && false
+puts true || false
+puts true || true && false
