@@ -10,6 +10,16 @@ def fizz_buzz(i)
   end
 end
 
+puts fizz_buzz(1)
+puts fizz_buzz(2)
+puts fizz_buzz(3)
+puts fizz_buzz(4)
+puts fizz_buzz(5)
+puts fizz_buzz(6)
+puts fizz_buzz(15)
+
+=begin
 puts "キーボードで数字を入力してエンターキーを押してください。"
 input = $stdin.gets.to_i
 puts fizz_buzz(input)
+=end
